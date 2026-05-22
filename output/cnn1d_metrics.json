@@ -1,0 +1,35 @@
+{
+  "model": "cnn1d",
+  "accuracy": 0.9614,
+  "f1_binary": 0.9655,
+  "precision": 1.0,
+  "recall": 0.9332,
+  "roc_auc": 0.9982,
+  "classification_report": {
+    "Background(0)": {
+      "precision": 0.916076845298281,
+      "recall": 1.0,
+      "f1-score": 0.9562005277044855,
+      "support": 906.0
+    },
+    "DebrisFlow(1)": {
+      "precision": 1.0,
+      "recall": 0.9332260659694288,
+      "f1-score": 0.9654598418643362,
+      "support": 1243.0
+    },
+    "accuracy": 0.9613773848301536,
+    "macro avg": {
+      "precision": 0.9580384226491405,
+      "recall": 0.9666130329847145,
+      "f1-score": 0.9608301847844108,
+      "support": 2149.0
+    },
+    "weighted avg": {
+      "precision": 0.9646187165380374,
+      "recall": 0.9613773848301536,
+      "f1-score": 0.9615561942939199,
+      "support": 2149.0
+    }
+  }
+}

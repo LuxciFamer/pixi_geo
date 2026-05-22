@@ -1,0 +1,30 @@
+[workspace]
+authors = ["Jing Zhang <2010468949@qq.com>"]
+channels = ["https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge", "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda", "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch", "nvidia", "https://conda.anaconda.org/pytorch"]
+name = "pixi_geo"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[pypi-options]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+numpy = ">=2.4.6,<3"
+pandas = ">=3.0.3,<4"
+matplotlib = ">=3.10.9,<4"
+seaborn = ">=0.13.2,<0.14"
+scikit-learn = ">=1.8.0,<2"
+openai = ">=2.38.0,<3"
+requests = ">=2.34.2,<3"
+pytorch-gpu = "*"
+cuda-version = "13.2.*"
+cuda = "13.2"
+scipy = ">=1.17.1,<2"
+h5py = ">=3.16.0,<4"
+
+[system-requirements]
+cuda = "13.2"
